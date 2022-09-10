@@ -62,7 +62,7 @@ handler.botAdmin = true
 handler.fail = null
 
 module.exports = handler
-*/
+
 
 
 let handler = async (m, { conn, text, participants }) => {
@@ -88,4 +88,4 @@ handler.group = true
 handler.botAdmin = true
 
 module.exports = handler
-
+*/
