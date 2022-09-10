@@ -203,8 +203,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.customPrefix = /^(ALL MENU)$/i
-handler.command = new RegExp
+handler.command = /^(allmenu|allhelp|\?)$/i
 
 handler.exp = 3
 
